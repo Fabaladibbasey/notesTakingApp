@@ -1,0 +1,51 @@
+@import '../../App.scss';
+
+@mixin box-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  background-color: $white-background;
+  max-width: 550px;
+  width: 95%;
+  padding: 0.7rem;
+  margin: 15px auto;
+  text-align: center;
+  padding: 2.4rem;
+  & .info-section .title {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    padding: 0.2rem;
+  }
+
+  & .info-section .discription {
+    word-spacing: 0.02rem;
+    letter-spacing: 0.21rem;
+    padding: 0.22rem;
+    line-height: 1.6rem;
+  }
+
+  & .icons {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    font-size: 1.4rem;
+    transition: all 0.3s linear;
+    & .icon {
+      line-height: 2.5rem;
+      & .fa-edit:hover {
+        color: $save;
+      }
+      & .fa-trash-alt:hover {
+        color: $danger;
+      }
+      & .fa-check-circle:hover {
+        color: $success;
+      }
+    }
+  }
+}

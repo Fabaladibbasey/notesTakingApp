@@ -1,0 +1,18 @@
+@import '../../App.scss';
+
+.heading-container {
+  margin: 10px auto;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+  & h4 {
+    width: 5rem;
+    padding: 0.3rem;
+    text-align: center;
+    & span {
+      padding: 0 0.2rem;
+      background-color: $notes-count-color;
+      font-size: 25px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import '../../App.scss';
+
+.form {
+  max-width: 550px;
+  width: 95%;
+  padding: 0.7rem;
+  margin: 10px auto;
+
+  & #title {
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  & #note {
+    width: 100%;
+    resize: none;
+    min-height: 155px;
+    padding: 10px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  & #submit {
+    width: 100%;
+    height: 45px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    background-color: $notes-count-color;
+    cursor: pointer;
+    &:hover {
+      background-color: $btn-hover;
+    }
+  }
+}

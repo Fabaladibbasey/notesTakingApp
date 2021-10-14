@@ -1,0 +1,3 @@
+export const ADDED_NEW_NOTE = 'ADDED_NEW_NOTE'
+export const EDITED_NOTE = 'EDITED_NOTE'
+export const NOTE_DELETED = 'NOTE_DELETED'

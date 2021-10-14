@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@300&display=swap');
+
+$notes-count-color: #b4e1ff;
+$btn-hover: hsl(204, 100%, 75%);
+$background-color: #eeeeee;
+$title-color: #c1ff9b;
+$white-background: #ffffff;
+$success: #1dab45;
+$danger: #ff002b;
+$save: #002962;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $background-color;
+  font-family: 'IBM Plex Sans Hebrew', sans-serif;
+}
